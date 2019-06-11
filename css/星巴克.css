@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    resize: none;
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+input {
+    outline: none;
+    /*取消轮廓线*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+.header {
+    height: 48px;
+    padding: 24px;
+}
+
+.primary {
+    display: inline-block;
+}
+
+.primary ul {
+    margin-left: 10px;
+}
+
+.primary li {
+    float: left;
+    margin-bottom: 15px;
+    padding: 0 5px;
+    font-weight: 700;
+}
+
+.primary li a {
+    color: inherit;
+}
+
+.header .icon {
+    float: right;
+    margin-top: 10px;
+}
+
+.header .icon img {
+    opacity: .8;
+}
+
+.header .icon:hover img {
+    opacity: 1;
+}
+
+.nav_btm {
+    padding: 0 24px 0 84px;
+}
+
+.coffe {
+    margin-top: 171px;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.dengru {
+    margin-top: 20px;
+}
+
+.dengru img {
+    vertical-align: middle;
+}
+
+.dengru span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dengru span {
+    color: #009758;
+}
+
+.dengru .zhuce {
+    margin-top: 0;
+    margin-left: 30px;
+    border: 1px solid #009758;
+    padding: 2px 12px;
+    border-radius: 48px;
+}
+
+.r {
+    margin-left: 30%;
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 0px 6px;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    line-height: 180%;
+    opacity: 0.6;
+    border-radius: 2px;
+    z-index: 200;
+}
+
+.banner {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner ul {
+    position: absolute;
+    width: 7200px;
+}
+
+.banner li {
+    float: left;
+    width: 884px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.r .arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    background: url(../img/icon-arrow-white.svg) no-repeat transparent center center;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.r .arrow:hover {
+    right: 16px;
+    transition: all 0.2s ease;
+}
+
+.wrapper {
+    max-width: 100%;
+    height: 190px;
+    padding: 24px 0;
+    background-color: #f7f7f7;
+}
+
+.wrapper .fluid {
+    padding-right: 24px;
+    padding-left: 24px;
+    /* background-color: pink; */
+    height: 190px;
+}
+
+.fluid a {
+    display: inline-block;
+    width: 262px;
+    height: 166px;
+    margin: 5px;
+    margin-top: 20px;
+    /* float: left; */
+}
+
+.fluid a img {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.12);
+}
+
+.fluid a img:hover {
+    display: block;
+    /* margin-top: 0px; */
+    box-shadow: 0 1px 3px 5px rgba(0, 0, 0, 0.12);
+    transition: all .2s ease;
+}
+
+.bgw {
+    background-color: #fff;
+    height: 250px;
+    position: relative;
+}
+
+.bgw-t {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    width: 100%;
+}
+
+.bgw-l {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-left: 24px;
+    width: 360px;
+    float: left;
+}
+
+.bgw-l h2 {
+    font-weight: normal;
+    margin-bottom: 18px;
+    /* margin-left: 24px; */
+}
+
+.bgw-l>p {
+    color: rgba(0, 0, 0, 0.56);
+    /* margin-left: 24px; */
+    line-height: 37px;
+}
+
+.bgw-l a {
+    color: #C2A661;
+}
+
+.zhuce {
+    margin-top: -15px;
+}
+
+.zhuce a {
+    background: none;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    color: #00A862;
+    display: inline-block;
+    font-weight: 500;
+    outline: none;
+    overflow: hidden;
+    padding: 0px 18px;
+    position: relative;
+    transition-duration: 0.1s;
+    transition-property: background, border-color, color;
+    margin-top: 30px;
+}
+
+.bgw-r {
+    float: right;
+}
+
+.bgw-r img {
+    height: 72px;
+    top: 50%;
+    position: absolute;
+    margin-top: -36px;
+    right: 0px;
+    transform: translate3d(0, 0, 0);
+    margin-right: 100px;
+}
+
+.tmall {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    text-align: center;
+    height: 415px;
+    background-color: #f7f7f7;
+}
+
+.tmall h2 {
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+
+.tmall p {
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.card {
+    margin-top: 48px;
+    margin-left: 50px;
+}
+
+.card li {
+    float: left;
+    margin-left: 30px;
+    width: 162px;
+    height: 190px;
+    margin-top: 10px;
+    transition: all .2s ease;
+}
+
+.card a {
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    text-align: center;
+    width: 100%;
+}
+
+.card a img {
+    width: 100px;
+    height: 72px;
+    margin-top: -40px;
+}
+
+.card li .title-1 {
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 26px;
+    font-weight: 700;
+}
+
+.card li .title-2 {
+    line-height: 30px;
+}
+
+.card li .title-3 {
+    color: #C2A661;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.card-1:hover {
+    margin-top: 0;
+    transition: all .2s ease;
+}
+
+.card-2:hover {
+    margin-top: 0;
+    transition: all .2s ease;
+}
+
+.card-3:hover {
+    margin-top: 0;
+    transition: all .2s ease;
+}
+
+.card-4:hover {
+    margin-top: 0;
+    transition: all .2s ease;
+}
